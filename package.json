@@ -1,14 +1,24 @@
 {
   "name": "mean_template",
   "version": "1.0.0",
-  "description": "",
+  "description": "---\r This project is about converting code using inline styles to utilizing internal styles. This is a process known as **refactoring**. You should think of your projects as a starting point that will need to be refined. When we refactor, we are taking something that is functional and making it better, _more streamlined and/or efficient_. This process is not an easy task, but you will get better with time.\r ---",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.13.4"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zenzerophotos/internal_styles.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zenzerophotos/internal_styles/issues"
+  },
+  "homepage": "https://github.com/zenzerophotos/internal_styles#readme"
 }
